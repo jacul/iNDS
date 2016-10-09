@@ -244,7 +244,7 @@ NSString * const iNDSGameSaveStatesChangedNotification = @"iNDSGameSaveStatesCha
 
 - (BOOL)hasPauseState
 {
-    return [[self nameOfSaveStateAtIndex:0] isEqualToString:@"pause"];
+    return [[self nameOfSaveStateAtIndex:0] isEqualToString:@"Pause"];
 }
 
 - (NSString *)description

@@ -169,7 +169,7 @@
 {
     saveStatePath = path;
     NSString * saveStateTitle = [selectedGame nameOfSaveStateAtPath:path];
-    if ([saveStateTitle isEqualToString:@"pause"]) {
+    if ([saveStateTitle isEqualToString:@"Pause"]) {
         saveStateTitle = @"Auto Save";
     }
     saveStateName.text = saveStateTitle;

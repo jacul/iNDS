@@ -101,7 +101,7 @@
         }
         // Name
         NSString * saveStateTitle = [_game nameOfSaveStateAtIndex:indexPath.row];
-        if ([saveStateTitle isEqualToString:@"pause"]) {
+        if ([saveStateTitle isEqualToString:@"Pause"]) {
             saveStateTitle = @"Auto Save";
         }
         cell.textLabel.text = saveStateTitle;
